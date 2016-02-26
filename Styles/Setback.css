@@ -1,0 +1,122 @@
+﻿/*
+body
+{
+    background: url('../Images/felt.png');
+}
+*/
+div.Player
+{
+    position: absolute;
+    /*outline: 1px dotted red;*/
+}
+/* doesn't center the text thanks to absolute positioning */
+div.Player > p
+{
+    text-align: center;
+}
+/**********************************************************/
+div.Cards
+{
+    position: relative;
+}
+img.PlayingCard
+{
+    position: absolute;
+}
+
+/* Position the players spaces */
+div#Player1
+{
+    top: 400px;
+    left: 200px;
+}
+div#Player2
+{
+    top: 200px;
+    left: 10px;
+}
+div#Player3
+{
+    top: 10;
+    left: 200px;
+}
+div#Player4
+{
+    top: 200px;
+    left: 400px;
+}
+
+div#Widow
+{
+    top: 200px;
+    left: 200px;
+}
+
+
+#Deck
+{
+    top: 400px;
+}
+
+#Discard
+{
+    left: 500px;
+    top: 400px;
+}
+
+
+div.PlayedCard
+{
+    width: 72px;
+    height: 96px;
+    position: absolute;
+}
+div#Card1
+{
+    top: 285px;
+    left: 250px;
+}
+div#Card2
+{
+    top: 250px;
+    left: 225px;
+}
+div#Card3
+{
+    top: 215px;
+    left: 250px;
+}
+div#Card4
+{
+    top: 250px;
+    left: 275px;
+}
+
+.ui-state-hover
+{
+    background-color: Gray;
+}
+.ui-state-active
+{
+    outline: 1px dotted black;
+}
+
+.BiddingControls
+{
+    display: none;
+}
+
+.TrumpControls
+{
+    display: none;
+}
+
+div#Moves
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    overflow: auto;
+}
